@@ -514,7 +514,7 @@ def create_link(row):
 df['ENLACE'] = df.apply(create_link, axis=1)
 
 # Interfaz con Streamlit
-st.markdown(f"<h1 class='stTitle'>Registro de {sheet_name}</h1>", unsafe_allow_html=True)
+st.markdown(f"<h1 class='stTitle'>REGISTRO DE {sheet_name}</h1>", unsafe_allow_html=True)
 
 # Contenedor de filtros con diseño
 with st.sidebar:
