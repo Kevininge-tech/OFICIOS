@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="Registro de Oficios", page_icon="📄", layout="wide")
 
 # Cargar el archivo con la ruta específica
-file_path = r"C:\\Users\\mateo\\Downloads\\OFICIOS\\OFICIOS.2.xlsx"
+file_path = "OFICIOS.2.xlsx"
 xls = pd.ExcelFile(file_path)
 
 # Estilos CSS
@@ -335,7 +335,7 @@ enlaces_2024 = {
     "296": "https://drive.google.com/file/d/11lMLQp-10qxRtkAjDOFwud3WjSSc2JVm/view?usp=drive_link",
     "297": "https://drive.google.com/file/d/1gDw2CUNyChfn30MdhYbLjq2uQgurQPv5/view?usp=drive_link",
     "298": "https://drive.google.com/file/d/1XEH93Gw1kiPMCBXlEzEkhLx9jiQtLEcF/view?usp=drive_link",
-      "300": "https://drive.google.com/file/d/1cfmituaGY8ZBgpsVzCAqNurZi3fPzGgS/view?usp=drive_link",
+    "300": "https://drive.google.com/file/d/1cfmituaGY8ZBgpsVzCAqNurZi3fPzGgS/view?usp=drive_link",
     "301": "https://drive.google.com/file/d/1rUa9VxtxAUEsGcL2ZxsyCTEqXJXFHxgM/view?usp=drive_link",
     "302": "https://drive.google.com/file/d/1UPArKkwQ5UtyES6iqGIWdwWC9T821VOC/view?usp=drive_link",
     "303": "https://drive.google.com/file/d/1NmCJ-37aDEJeS9lVTn-Pn4OnuU_lE9pm/view?usp=drive_link",
@@ -405,7 +405,7 @@ enlaces_2024 = {
     "379": "https://drive.google.com/file/d/13YrsLGoi_dSUPARNeG74F2A7mKmaha64/view?usp=drive_link",
     "380": "https://drive.google.com/file/d/1R7u66kQSdEK1dXxtP3GYhD_iziorGrYX/view?usp=drive_link",
     "381": "https://drive.google.com/file/d/1XSgdPD_-GRQDuAmsT_zP295RpkyInPLq/view?usp=drive_link",
-      "383": "https://drive.google.com/file/d/1LMkFgkCyuL7wG1P266d98DIv5fiIplZ6/view?usp=drive_link",
+    "383": "https://drive.google.com/file/d/1LMkFgkCyuL7wG1P266d98DIv5fiIplZ6/view?usp=drive_link",
     "384": "https://drive.google.com/file/d/1jM5B1ikEy1HdMTtie0tsBKQ52c6eWQ0f/view?usp=drive_link",
     "385": "https://drive.google.com/file/d/1TD7bPlf1JbqTjMPHvbOsQyxMUla4VYyi/view?usp=drive_link",
     "386": "https://drive.google.com/file/d/1lFTsRUFW4RR9j0bB7d1B6lEzvUzto83j/view?usp=drive_link",
